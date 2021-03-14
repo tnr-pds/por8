@@ -819,7 +819,7 @@ export default {
         idname: this.namee,
         name: "iphone",
         version: "iPad ใหม่ รุ่น Wifi",
-        // countped: this.updateipad,
+        countped: 0,
         Email: this.email,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         price: 8990,
@@ -845,7 +845,7 @@ export default {
         idname: this.namee,
         name: "iphone",
         version: "iPhone 12 Pro (256GB)",
-        // countped: this.updateiphone12,
+        countped: 0,
         Email: this.email,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         price: 27200,
@@ -867,6 +867,7 @@ export default {
     ipse64gb() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "iphone",
         version: "iPhone SE 64GB (2020)",
@@ -893,6 +894,7 @@ export default {
     samsungGalaxyA30s() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "Samsung",
         version: "Galaxy A30s",
@@ -918,6 +920,7 @@ export default {
     samsungGalaxyA01() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "Samsung",
         version: "Galaxy A01",
@@ -943,6 +946,7 @@ export default {
     samsungGalaxyA50S() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "Samsung",
         version: "Galaxy A50S",
@@ -969,6 +973,7 @@ export default {
     oppoReno5Pro5G() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "Oppo",
         version: "Reno 5 Pro 5G",
@@ -993,6 +998,7 @@ export default {
     oppoReno4() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "Oppo",
         version: "Reno 4",
@@ -1017,6 +1023,7 @@ export default {
     oppoA93() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "Oppo",
         version: "A93",
@@ -1042,6 +1049,7 @@ export default {
     XiaomiMi10TPro5G() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "Xiaomi",
         version: "Mi 10T Pro 5G",
@@ -1066,6 +1074,7 @@ export default {
     XiaomiMiA3() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "Xiaomi",
         version: "Mi A3",
@@ -1091,6 +1100,7 @@ export default {
     XiaomiRedminote8() {
       //cloud firebase
       const dataText = {
+        countped: 0,
         idname: this.namee,
         name: "Xiaomi",
         version: "Redmi note 8",
